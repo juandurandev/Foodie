@@ -1,0 +1,15 @@
+{
+  "short_name": "Foodie",
+  "name": "Foodie",
+  "icons": [
+    {
+      "src": "/public/FoodieIcon",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#e79d2d",
+  "background_color": "#ffffff"
+}
