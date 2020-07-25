@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FoodContainer = styled.div`
   position: relative;
-  width: 450px;
+  width: 300px;
   border: 1px solid #c6c6c6;
   border-radius: 4px;
   background-color: white;
@@ -15,19 +15,19 @@ export const FoodContainer = styled.div`
   }
 
   @media screen and (max-width: 1420px) {
-    width: 400px;
+    width: 300px;
   }
 
   @media screen and (max-width: 1240px) {
-    width: 370px;
+    width: 250px;
   }
 
-  @media screen and (max-width: 1200px) {
-    width: 330px;
+  @media screen and (max-width: 1024px) {
+    width: 250px;
   }
 
   @media screen and (max-width: 720px) {
-    width: 480px;
+    width: 380px;
   }
 
   @media screen and (max-width: 520px) {
@@ -72,10 +72,34 @@ export const FooterFoodContainer = styled.div`
 
   & p {
     font-family: Courier, monospace;
-    font-size: 24px;
+    font-size: 18px;
     color: white;
     z-index: 3;
     box-sizing: border-box;
     margin: 0;
+
+    @media screen and (max-width: 1420px) {
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 1240px) {
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 720px) {
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 520px) {
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 360px) {
+      font-size: 15px;
+    }
   }
 `;

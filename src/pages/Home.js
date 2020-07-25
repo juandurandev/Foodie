@@ -16,16 +16,17 @@ const LoadButton = styled.button`
   align-self: center;
   background-color: transparent;
   justify-self: center;
-  height: 80px;
-  width: 300px;
-  border: 3px solid #e79d2d;
+  height: 50px;
+  width: 200px;
+  border: 2px solid #e79d2d;
   border-radius: 5px;
   color: #e79d2d;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   transition: opacity 0.8s;
   font-family: "Arial";
   margin-top: 30px;
+  transition: 0.5s;
 
   &:hover {
     background-color: #e79d2d;

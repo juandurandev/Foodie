@@ -4,8 +4,8 @@ export const GitHubIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     role="img"
-    width="50px"
-    height="50px"
+    width="30px"
+    height="30px"
     fill="black"
     viewBox="0 0 438.549 438.549"
   >

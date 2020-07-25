@@ -6,6 +6,10 @@ export const Container = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, auto);
   }
 

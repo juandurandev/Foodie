@@ -8,7 +8,7 @@ export const Header = styled.header`
   grid-template-areas: ". title .";
   z-index: 9999;
   background-color: white;
-  border-bottom: 2px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
   top: 0;
   & div {
     display: grid;
@@ -21,7 +21,7 @@ export const Header = styled.header`
     & a {
       text-decoration: none;
       color: #e79d2d;
-      font-size: 100px;
+      font-size: 40px;
       margin-top: 5px;
       @media screen and (max-width: 520px) {
         font-size: 50px;

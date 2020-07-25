@@ -3,8 +3,8 @@ import React from "react";
 export const LinkedInIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="50px"
-    height="50px"
+    width="30px"
+    height="30px"
     role="img"
     fill="black"
     viewBox="0 0 430.117 430.117"

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Cover = styled.div`
-  width: 1200px;
+  width: 800px;
   border: 0px solid black;
   border-radius: 5px;
   margin: 0 auto;
@@ -17,15 +17,15 @@ export const Cover = styled.div`
   }
 
   @media screen and (max-width: 1420px) {
-    width: 800px;
-  }
-
-  @media screen and (max-width: 1024px) {
     width: 600px;
   }
 
+  @media screen and (max-width: 1024px) {
+    width: 400px;
+  }
+
   @media screen and (max-width: 720px) {
-    width: 520px;
+    width: 420px;
   }
 
   @media screen and (max-width: 520px) {
@@ -37,6 +37,6 @@ export const Cover = styled.div`
   }
 
   @media screen and (max-width: 360px) {
-    width: 300px;
+    width: 280px;
   }
 `;

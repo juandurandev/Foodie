@@ -2,13 +2,13 @@ import styled from "styled-components";
 export const Foot = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 50px 50px;
   grid-template-areas:
     ". li ."
     ". text .";
   position: relative;
   bottom: 0;
-  height: 200px;
+  height: 100px;
   background-color: white;
   color: black;
   margin-top: 15px;
@@ -21,7 +21,7 @@ export const Mention = styled.div`
 
   & p {
     font-family: "Rubik Mono One";
-    font-size: 20px;
+    font-size: 10px;
     color: #e79d2d;
     text-align: center;
 

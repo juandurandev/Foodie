@@ -4,8 +4,8 @@ export const InstagramIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     role="img"
-    width="50px"
-    height="50px"
+    width="30px"
+    height="30px"
     viewBox="0 0 512 512"
     fill="black"
   >
