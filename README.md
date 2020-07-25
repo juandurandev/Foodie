@@ -6,7 +6,9 @@ Foodie is a simple app to found fast and easy recipes.
 
 ## Demo 🚀
 
-### Pre-requirements 📋
+https://foodie.vercel.app/
+
+## Pre-requirements 📋
 
 Require Nodejs
 
