@@ -23,7 +23,7 @@ export const FoodContainer = styled.div`
   }
 
   @media screen and (max-width: 1024px) {
-    width: 250px;
+    width: 220px;
   }
 
   @media screen and (max-width: 720px) {
