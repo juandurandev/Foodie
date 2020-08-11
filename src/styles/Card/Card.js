@@ -71,7 +71,7 @@ export const FooterFoodContainer = styled.div`
   font-weight: 400;
 
   & p {
-    font-family: "Galada", cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
     color: white;
     z-index: 3;

@@ -39,7 +39,7 @@ const FoodContainer = styled.div`
 
 const FooterFoodContainer = styled.div`
   position: absolute;
-  background-color: black;
+  background-color: #e79d2d;
   z-index: 2;
   padding: 10px;
   box-sizing: border-box;
@@ -51,7 +51,7 @@ const FooterFoodContainer = styled.div`
   font-weight: 400;
 
   & p {
-    font-family: Courier, monospace;
+    font-family: "Nunito", sans-serif;
     font-size: 30px;
     color: white;
     z-index: 3;
