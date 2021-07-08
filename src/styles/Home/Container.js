@@ -13,7 +13,7 @@ export const Container = styled.div`
     grid-template-columns: repeat(2, auto);
   }
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 425px) {
     grid-template-columns: repeat(1, auto);
   }
 `;

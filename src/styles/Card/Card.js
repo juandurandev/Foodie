@@ -14,27 +14,24 @@ export const FoodContainer = styled.div`
     border-radius: 4px;
   }
 
-  @media screen and (max-width: 1420px) {
-    width: 300px;
+  @media screen and (max-width: 1440px) {
+    width: 280px;
   }
 
-  @media screen and (max-width: 1240px) {
-    width: 250px;
-  }
 
   @media screen and (max-width: 1024px) {
     width: 220px;
   }
 
-  @media screen and (max-width: 720px) {
-    width: 380px;
+  @media screen and (max-width: 768px) {
+    width: auto;
   }
 
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 425px) {
     width: 350px;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 375px) {
     width: 280px;
   }
 `;
@@ -78,27 +75,24 @@ export const FooterFoodContainer = styled.div`
     box-sizing: border-box;
     margin: 0;
 
-    @media screen and (max-width: 1420px) {
+    @media screen and (max-width: 1440px) {
       font-size: 15px;
     }
 
-    @media screen and (max-width: 1240px) {
-      font-size: 10px;
-    }
 
     @media screen and (max-width: 1024px) {
       font-size: 10px;
     }
 
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 768px) {
       font-size: 15px;
     }
 
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 425px) {
       font-size: 15px;
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
       font-size: 15px;
     }
   }

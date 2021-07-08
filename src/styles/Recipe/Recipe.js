@@ -13,12 +13,17 @@ export const IngredientsText = styled.div`
   text-align: center;
   margin: 0;
   line-height: 0;
+  width:auto;
 
-  @media screen and (max-width: 720px) {
-    font-size: 100px;
+  @media screen and (max-width:1440px){
+    font-size: 70px;
   }
-  @media screen and (max-width: 520px) {
-    font-size: 80px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 70px;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 50px;
   }
 `;
 
@@ -31,19 +36,34 @@ export const StepsContainer = styled.div`
     grid-template-columns: auto 1fr auto;
   }
 
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 425px) {
     grid-template-columns: auto 1fr auto;
   }
 `;
 
 export const Steps = styled.div`
   grid-area: step;
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
+  width: auto;
+  margin: 0 10px;
   background-color: #f0ebeb;
-  border: 1px solid #f0ebeb;
   border-radius: 10px;
   z-index: -1;
-  padding: 10px;
+  padding-left:10px;
+
+  
+  
+  @media screen and (max-width:1440px){
+    font-size: 10px;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+   
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 10px;
+  }
+
+
 `;

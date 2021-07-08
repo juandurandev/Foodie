@@ -16,7 +16,7 @@ export const Cover = styled.div`
     object-fit: cover;
   }
 
-  @media screen and (max-width: 1420px) {
+  @media screen and (max-width: 1440px) {
     width: 600px;
   }
 
@@ -24,19 +24,19 @@ export const Cover = styled.div`
     width: 500px;
   }
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 768px) {
     width: 420px;
   }
 
-  @media screen and (max-width: 520px) {
-    width: 420px;
-  }
-
-  @media screen and (max-width: 440px) {
+  @media screen and (max-width: 425px) {
     width: 380px;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 375px) {
+    width: 350px;
+  }
+
+  @media screen and (max-width: 320px) {
     width: 280px;
   }
 `;
